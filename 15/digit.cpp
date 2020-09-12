@@ -3,7 +3,7 @@ int main() {
 	int n, r, sum = 0;
 	printf("Enter number :");
 	scanf_s("%d", &n);
-	if (n >= 0) {
+	if (n > 0) {
 		while (n > 9) {
 			sum = 0;
 			while (n > 0) {
