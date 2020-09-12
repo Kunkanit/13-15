@@ -4,7 +4,7 @@ int main() {
 	
 	printf("Enter number : ");
 	scanf_s("%d", &num);
-	if (num > 2&&num<=60) {
+	if (num > 2) {
 		int x = num, y = num;
 		for (i = 1; i <= num; i++) {
 			for (j = 1; j < num * 2; j++) {
